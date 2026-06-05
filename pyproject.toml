@@ -1,0 +1,13 @@
+[project]
+name = "ops-agent-playbook-runner"
+version = "0.1.0"
+description = "Safe, auditable AI-assisted operations playbooks for local lab scenarios"
+requires-python = ">=3.10"
+dependencies = ["pyyaml>=6.0"]
+
+[project.scripts]
+ops-playbook-runner = "ops_playbook_runner.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

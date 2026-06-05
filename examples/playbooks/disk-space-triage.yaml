@@ -1,0 +1,19 @@
+name: Disk Space Triage
+description: Synthetic dry-run disk-space troubleshooting playbook.
+risk_level: low
+steps:
+  - type: check
+    name: inventory
+    details: Confirm synthetic lab host inventory is available.
+  - type: command
+    name: inspect disk usage
+    command: df -h
+  - type: approval
+    name: cleanup approval
+    prompt: Human approval would be required before any cleanup action.
+  - type: collect
+    name: evidence
+    details: Save command output and observations.
+  - type: note
+    name: report
+    details: Render final Markdown report.

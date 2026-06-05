@@ -1,0 +1,10 @@
+$ python -m ops_playbook_runner run examples/playbooks/disk-space-triage.yaml --dry-run
+Playbook: Disk Space Triage
+Mode: DRY RUN
+Safety policy: enabled
+Steps planned: 5
+[1/5] check inventory: OK
+[2/5] command df -h: dry-run recorded
+[3/5] approval required: skipped in dry-run
+[4/5] collect evidence: runs/.../evidence.md
+[5/5] render report: runs/.../report.md

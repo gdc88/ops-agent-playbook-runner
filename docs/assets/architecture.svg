@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-label="ops-agent-playbook-runner architecture">
+  <rect width="960" height="260" fill="#0f172a"/>
+  <style>.box{fill:#1e293b;stroke:#38bdf8;stroke-width:2;rx:14}.txt{fill:#e2e8f0;font:16px sans-serif}.small{fill:#94a3b8;font:13px sans-serif}.arrow{stroke:#22c55e;stroke-width:3;marker-end:url(#m)}</style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#22c55e"/></marker></defs>
+  <rect class="box" x="30" y="75" width="135" height="80"/><text class="txt" x="55" y="110">Playbook</text><text class="small" x="55" y="132">YAML</text>
+  <line class="arrow" x1="165" y1="115" x2="220" y2="115"/>
+  <rect class="box" x="220" y="75" width="135" height="80"/><text class="txt" x="250" y="110">Validate</text><text class="small" x="250" y="132">schema</text>
+  <line class="arrow" x1="355" y1="115" x2="410" y2="115"/>
+  <rect class="box" x="410" y="75" width="135" height="80"/><text class="txt" x="438" y="110">Safety</text><text class="small" x="438" y="132">policy gates</text>
+  <line class="arrow" x1="545" y1="115" x2="600" y2="115"/>
+  <rect class="box" x="600" y="75" width="135" height="80"/><text class="txt" x="625" y="110">Executor</text><text class="small" x="625" y="132">dry-run</text>
+  <line class="arrow" x1="735" y1="115" x2="790" y2="115"/>
+  <rect class="box" x="790" y="75" width="135" height="80"/><text class="txt" x="816" y="110">Report</text><text class="small" x="816" y="132">evidence</text>
+</svg>
