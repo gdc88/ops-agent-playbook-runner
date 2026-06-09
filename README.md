@@ -19,6 +19,10 @@ flowchart LR
     E --> F[Markdown report]
 ```
 
+## Live portfolio page
+
+- https://gdc88.github.io/ops-agent-playbook-runner/
+
 ## Why this exists
 
 Infrastructure work is easier to trust when troubleshooting steps are repeatable, reviewed, and documented. This demo shows an AI-era operations pattern without connecting to real systems:
